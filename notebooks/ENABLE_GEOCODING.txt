@@ -1,0 +1,39 @@
+===============================================================================
+QUICK FIX: Enable Geocoding API (2 minutes)
+===============================================================================
+
+ERROR YOU'RE SEEING:
+  "This API project is not authorized to use this API"
+
+SOLUTION:
+  1. Go to: https://console.cloud.google.com/apis/library
+
+  2. Search: "Geocoding API"
+
+  3. Click: "Enable"
+
+  4. Wait 1-2 minutes
+
+  5. Run: python matere_d_demo.py
+
+DONE!
+
+===============================================================================
+
+WHY:
+  mATEre d' needs TWO Google APIs:
+
+  ✅ Places API (you have this) - finds restaurants
+  ❌ Geocoding API (you need this) - converts location to coordinates
+
+  "Times Square" → Geocoding API → 40.758,-73.985 → Places API → restaurants
+
+COST:
+  $0.005 per run (half a cent)
+  $200 free credit = 40,000 free runs
+
+===============================================================================
+
+Direct link: https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com
+
+===============================================================================
